@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabbed Website</title>
+  <title>File Tabs Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="file">
     <!-- Tabs -->
     <div class="tabs">
       <button class="tab active" onclick="showPage(1)">1</button>
@@ -17,22 +17,22 @@
 
     <!-- Pages -->
     <div id="page1" class="page active">
-      <h1>Page 1</h1>
-      <p>This is where your styled text/design will go.</p>
+      <h2>Page 1</h2>
+      <p>This is your styled intro page. Add your text/design here.</p>
     </div>
 
     <div id="page2" class="page">
-      <h1>Page 2</h1>
+      <h2>Page 2</h2>
       <video controls width="100%">
         <source src="your-video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        Your browser does not support video.
       </video>
     </div>
 
     <div id="page3" class="page">
-      <h1>Page 3</h1>
-      <img src="your-image.jpg" alt="Sample" style="width:100%; border-radius:10px;">
-      <p>This is some text below the image.</p>
+      <h2>Page 3</h2>
+      <img src="your-image.jpg" alt="Sample" class="image">
+      <p>This is the text below the image.</p>
     </div>
   </div>
   <script src="script.js"></script>
